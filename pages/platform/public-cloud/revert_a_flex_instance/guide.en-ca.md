@@ -40,7 +40,7 @@ Once the process is completed, you will have a classic instance and a larger sto
 
 ![New flavor applied](images/newflavor.png){.thumbnail}
 
-In case you wish to revert back to a flex model, you can do this by performing the same steps mentioned above and select a flex «flavor» instead. Alternatively, you can [edit the instance] back in the OVHcloud Control Panel.
+In case you wish to revert back to a flex model, you can do this by performing the same steps mentioned above and select a flex «flavor» instead. Alternatively, you can [edit the instance](edit-an-instance) back in the OVHcloud Control Panel.
 
 ## Go further
 
