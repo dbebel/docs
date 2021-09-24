@@ -68,7 +68,7 @@ This section allows you to modify your billing period or to switch your instance
 
 ![Edit billing or instance](images/optionandbilling.png){.thumbnail}
 
-Once done, apply the changes. The instance will be shutdown and rebooted during the operation.
+Once you have made sure that your new configuration choices are correct, apply the changes. The instance will be shutdown and rebooted during the operation.
 
 
 ## Go further
