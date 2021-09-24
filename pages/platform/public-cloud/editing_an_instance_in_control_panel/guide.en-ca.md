@@ -7,11 +7,11 @@ section: Management via Control Panel
 order: 5
 ---
 
-**Last updated 15th September 2021**
+**Last updated 24th September 2021**
 
 ## Introduction
 
-Following an increase in activity, or simply new needs, it is possible that your instance cannot meet this new load due to a lack of resources. However, with the Public Cloud, you can increase the resources available to your instance with just a few clicks.
+Following an increase in activity, or simply new needs, it is possible that your instance cannot meet this new load due to a lack of resources. With the Public Cloud, you can increase the resources available to your instance with just a few clicks.
 
 **This guide explains how to resize your instance via the OVHcloud Control Panel**
 
@@ -20,7 +20,7 @@ Following an increase in activity, or simply new needs, it is possible that your
 >
 
 > [!success]
-> Flex instances allow resizing to higher or lower models with a single disk size.
+> Flex instances allow resizing to higher or lower models with a single disk size(50GB).
 >
 
 ## Requirements
@@ -40,33 +40,35 @@ Click on the instance name to edit and click on `Edit`{.action} in the dashboard
 
 ![Edit instance](images/editinstance.png){.thumbnail}
 
-### Instance name and image
+### Instance name and Image
 
-This section allows you to edit the instance name and image.
+This section allows you to edit the Instance name and Image.
 
 ![Change name or image](images/editnameorimage.png){.thumbnail}
 
 > [!alert]
-> If you select a different image, all of the data stored on the instance will be deleted, this action is irreversible. It is also not possible to switch from a linux image to a windows image and vice versa.
+> If you select a different image, all of the data stored on the instance will be deleted. This action is irreversible. 
+>
+> It is not possible to switch from a linux image to a windows image and vice versa.
 >
 
 ### Template 
 
-This section allows you to select a new template for your instance. 
+This section allows you to select a new Template for your instance. 
 
 ![Edit template](images/edittemplate.png){.thumbnail}
 
 > [!warning]
-> Depending the quota(resources) you have left on your project, certain templates will not be available. In such cases, you will need to [contact our support](https://help.ovhcloud.com/en-ca/contact-method/) team by creating a ticket from your Control Panel to find out if you are eligible for a quota increase.
->
+> Depending on the quota (resources) you have left on your project, some templates will not be available. In such cases, you will need to [increase your Public Cloud quota](https://docs.ovh.com/ca/en/public-cloud/increase-public-cloud-quota/) first.
+> 
 
 ### Instance type and billing period
 
-This section allows you to modify your billing period or to switch your instance to the flex option if needed. Find out more about changing the billing rate for your Public Cloud instance [here](https://docs.ovh.com/ca/en/public-cloud/change-public-cloud-billing-rate/).
+This section allows you to modify your billing period or to switch your instance to the flex option if needed. For more information, please consult this guide: [Switching from hourly to monthly billing](https://docs.ovh.com/ca/en/public-cloud/change-public-cloud-billing-rate/).
 
 ![Edit billing or instance](images/optionandbilling.png){.thumbnail}
 
-Apply the changes once the selection is done, the instance will be rebooted during the operation.
+Once done, apply the changes. The instance will be shutdown and rebooted during the operation.
 
 
 ## Go further
